@@ -20,7 +20,7 @@ function App() {
 
   const sendSelectedData = () => {
     console.log(selectedRows);
-    mailToEmail(selectedRows, "24shardul@gmail.com");
+    mailToEmail(selectedRows, "info@redpositive.in");
   };
 
   useEffect(() => {
