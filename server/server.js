@@ -1,6 +1,6 @@
 //setup express server
 const express = require("express");
-require("dotenv").config();
+// require("dotenv").config();
 const bodyParser = require("body-parser");
 const userRouter = require("./userRouter");
 const cors = require("cors");
